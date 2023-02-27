@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300&display=swap');
+@media screen and (max-width: 1200px) {
+   main {
+     flex-flow: column nowrap;
+   }
+   main aside {
+     align-self: center;
+   }
+
+ }
+ 
+
+ @media screen and (max-width: 768px) {
+   nav ul {
+     justify-content: center;
+   }
+  
+   main aside {
+     align-self: stretch;
+   }
+ }
+html{
+  scroll-behavior: smooth;
+}
+
+ * {
+  box-sizing: border-box;
+}
+
+body {
+   font-family: 'Mitr', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: aquamarine;
+   
+ }
+ main {
+   padding: 20px;
+   display: flex;
+   gap: 1.5rem;
+   
+ }
+
+ header {
+   display: inline;
+}
+
+.jumbotron {
+  padding: 60px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+ background-color: rgb(40, 214, 40);
+}
+.jumbotron img{
+ width: 10%;
+ border-radius: 999px;
+}
+
+/* membuat teks berjalan */
+ marquee{
+  background-color: crimson;
+  color:white ;
+  margin-bottom: -8px;
+  position: sticky;
+}
+/* mengatur Navbar */
+ nav {
+  background-color: #08a243;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+ 
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+   font-weight: bold;
+   background-color: rgb(115, 198, 32);
+   transition: all .2s ease-in-out;
+   border-radius: 999px;
+   padding: 0.1rem 1rem;
+}
+nav li {
+  
+  list-style-type: none;
+ 
+}
+
+nav ul {
+  padding-inline: 4rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: flex-end;
+  
+}
+/* akhir navbar */
+
+/* mengatur class konten */
+#konten {
+  flex: 5;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
+  
+ }
+ #konten h2{
+  text-align: center;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+}
+.konten-image {
+  width: 80%;
+  max-height: 300px;
+  border-radius: 5px;
+  /* membuat gambar ke posisi tengah */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: lightgreen;
+  border-color: black;
+ 
+}
+/* akhir class konten */
+
+/* mengatur konten aside */
+aside h2{
+  color: white;
+  background-color: green;
+  border-radius: 20px;
+  text-align: center;
+  padding: 0.1rem 0.1rem;
+ }
+ 
+.biodata header {
+   text-align: center;
+}
+
+aside .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.biodata img{
+  width: 200px;
+  
+}
+
+aside {
+  flex: 1;
+}
+
+#kontak li{
+  list-style:none;
+ }
+ #kontak a:hover {
+  font-weight: bold;
+  background-color: rgb(115, 198, 32);
+  transition: all .2s ease-in-out;
+  border-radius: 999px;
+  padding: 0.1rem 1rem;
+  color: white;
+}
+#daftar a{
+  color: white;
+  background-color: rgb(203, 161, 24);
+  border-radius: 20px;
+  padding: 0.1rem 1rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#daftar a:hover {
+  font-weight: bold;
+  background-color: rgb(115, 198, 32);
+  transition: all .2s ease-in-out;
+  border-radius: 999px;
+  color: white;
+}
+
+/* akhir konten aside */
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #08a243;
+   text-align: center;
+   font-weight: bold;
+}
+
+
+
+
+ 
+ 
+ 
